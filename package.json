@@ -4,8 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "nodemon app.js"
+    "dev": "nodemon app.js"
+    "build": "webpack"
   },
+  
   "author": "",
   "license": "ISC",
   "dependencies": {
